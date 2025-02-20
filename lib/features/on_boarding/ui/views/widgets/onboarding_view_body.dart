@@ -8,6 +8,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 class OnboardingViewBody extends StatelessWidget {
   const OnboardingViewBody({super.key});
 
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -15,11 +16,13 @@ class OnboardingViewBody extends StatelessWidget {
         padding: EdgeInsets.symmetric(vertical: 30.h),
         child: Column(
           children: [
+
             BioLogoAndName(),
             SizedBox(height: 30.h),
             TeacherImageAndText(),
             SizedBox(height: 10.h),
             Padding(
+
               padding: EdgeInsets.symmetric(horizontal: 30.h),
               child: Column(
                 children: [
