@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'package:biocode/core/utils/app_router.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -25,4 +26,11 @@ class MainApp extends StatelessWidget {
       supportedLocales: S.delegate.supportedLocales,
     );
   }
+=======
+import 'package:biocode/biotics_app.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const BioticsApp());
+>>>>>>> master
 }
