@@ -1,3 +1,3 @@
-# biocode
+# Biotics
 
 A new Flutter project.
